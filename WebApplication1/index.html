@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/gitApi.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td> Enter Github User Name : </td>
+     <td>
+        <input type="text" id="txtUser" size="20" />
+        </td><td>Please enter the valid Github User name eq. 'sanjitrajbanshi'</td></tr>
+            <tr><td></td>
+                <td>
+                    <input type="submit" value="getRepos" id="btnSubmit" />
+                </td>
+        <td></td>
+            </tr>
+    </table>
+    <br />
+    <br />
+    <label id="lblgit">List of Github projects</label><br />
+    <select id="repo"></select>
+    <br />
+    <br />
+    <label id="lblDetails">Details of Git hub project</label><br />
+    <textarea id="txtDetails" rows="40" cols="50"></textarea>
+</body>
+</html>
